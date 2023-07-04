@@ -1,4 +1,4 @@
-import get_data
+from get_data import get_prices
 import bollinger 
 from symbols import symbols 
 import tele as tb 
@@ -9,6 +9,6 @@ import pandas as pd
 
 for symbol in symbols:
     # Get data from API
-    klines = []
-    get_data
+    get_prices
     bollinger
+    
